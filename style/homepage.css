@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+
+nav#main-nav {
+    background-color: black;
+    display:flex;
+    justify-content: center;
+}
+
+#main-nav > a{
+    color: white;
+    display:inline-block;
+    padding: 1em;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: all ease-in-out 500ms;
+}
+
+#main-nav > a:hover{
+    background-color: rgba(0, 0, 255, 0.6);
+
+}
+
+#HarborSeal {
+    border-radius: 40px;
+    border: 2px solid black;
+}
+
+#YellowNapedParrot {
+    border-radius: 40px;
+    border: 2px solid black;
+}
+
+#GilaMonster {
+    border-radius: 40px;
+    border: 2px solid black;
+}
+
+#AfricanCichlid {
+    border-radius: 40px;
+    border: 2px solid black;
+}
