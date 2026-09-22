@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+}
+
+nav#main-nav {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+nav#main-nav > a {
+    color: white;
+    display: inline-block;
+    padding: 1em;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: all ease-in-out 500ms;
+}
+nav#main-nav > a:hover {
+    background-color: rgba(0,0,255,0.6);
+}
+
+header > img#Yellow-Naped-Parrot-Image {
+    display: block;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    display: flex;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+}
+h1:hover {
+    cursor: default;
+}
+
+section#Behavior > img#Yellow-Naped-Parrot-In-tree-Image {
+    display: block;
+    margin: 2rem auto;
+}
+
+section > h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+section > p {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    padding: 1rem;
+}
+
+section#Scientific-Classification > table{
+    margin: 1rem auto;
+    border-collapse: collapse;
+}
+
+section#Scientific-Classification > table > tbody > tr > th, td {
+    text-align: center;
+    border: 1px solid black;
+    padding: 0.4rem;
+}

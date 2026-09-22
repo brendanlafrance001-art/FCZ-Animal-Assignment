@@ -19,25 +19,28 @@ nav#main-nav {
 
 #main-nav > a:hover{
     background-color: rgba(0, 0, 255, 0.6);
-
 }
 
 #HarborSeal {
-    border-radius: 40px;
+    border-radius: 7%;
     border: 2px solid black;
 }
 
 #YellowNapedParrot {
-    border-radius: 40px;
+    border-radius: 7%;
     border: 2px solid black;
 }
 
 #GilaMonster {
-    border-radius: 40px;
+    border-radius: 7%;
     border: 2px solid black;
 }
 
 #AfricanCichlid {
-    border-radius: 40px;
+    border-radius: 7%;
     border: 2px solid black;
+}
+
+p {
+    border-radius: 7%;
 }
