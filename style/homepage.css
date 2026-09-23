@@ -21,26 +21,50 @@ nav#main-nav {
     background-color: rgba(0, 0, 255, 0.6);
 }
 
-#HarborSeal {
-    border-radius: 7%;
-    border: 2px solid black;
+section#dossier-cards{
+    text-align: center;
 }
 
-#YellowNapedParrot {
-    border-radius: 7%;
-    border: 2px solid black;
+a.card{
+    display:flex;
+    justify-content: center;
+    align-items: center;    
+    height: 25vw;
+    width: 40%;
+    background-size: cover;
+    text-decoration: none;
+    color:black;
+    font-size: 3rem;
 }
 
-#GilaMonster {
-    border-radius: 7%;
-    border: 2px solid black;
+.card.Seal{
+    background-image: url("../images/Harbor_Seal.jpg");
 }
 
-#AfricanCichlid {
-    border-radius: 7%;
-    border: 2px solid black;
+.flex{
+    display:flex;
+    flex-flow: row wrap;
+    width: 80vw;
+    margin: 0 auto;
+    justify-content: space-between;
 }
 
-p {
-    border-radius: 7%;
+.card .content{
+    opacity: 0;
+    background-color: rgba(255,255,255,0.33);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    transition: all ease 500ms;
+}  
+
+.card:hover .content{
+    opacity:1;
 }
+
+.card.parrot{
+    background-image: url("../images/Yellow-Naped-Amazon-Parrot.jpg");
+}
+

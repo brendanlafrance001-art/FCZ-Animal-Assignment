@@ -20,3 +20,53 @@ nav#main-nav > a {
 nav#main-nav > a:hover {
     background-color: rgba(0, 0, 255, 0.6);
 }
+
+header > img#GilaMonster {
+    width: 100%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    position: absolute;
+    top:10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: orange;
+}
+
+h1:hover{
+    cursor: default;
+}
+
+section {
+    text-align: center;
+}
+
+section#Kingdom > table#Scientific-Classification {
+    margin: 1rem auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+section#Kingdom > table#Scientific-Classification > tbody > tr > th, td{
+    border: 1px solid black;
+    font-size: 1.5rem;
+}
+
+section#Location > img#GilaMonsterRange {
+    text-align: center;
+    width: 50%;
+}
+
+p{
+    margin: 2rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+h2{
+    font-size:2.5rem;
+}
