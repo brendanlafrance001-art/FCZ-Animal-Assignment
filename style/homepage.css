@@ -8,6 +8,10 @@ nav#main-nav {
     justify-content: center;
 }
 
+h1{
+    font-size: 6rem;
+}
+
 #main-nav > a{
     color: white;
     display:inline-block;
@@ -37,9 +41,6 @@ a.card{
     font-size: 3rem;
 }
 
-.card.Seal{
-    background-image: url("../images/Harbor_Seal.jpg");
-}
 
 .flex{
     display:flex;
@@ -47,6 +48,7 @@ a.card{
     width: 80vw;
     margin: 0 auto;
     justify-content: space-between;
+    gap: 2rem;
 }
 
 .card .content{
@@ -64,7 +66,45 @@ a.card{
     opacity:1;
 }
 
-.card.parrot{
-    background-image: url("../images/Yellow-Naped-Amazon-Parrot.jpg");
+.card.Seal{
+    background-image: url("../images/Harbor_Seal.jpg");
+    border: 0.5rem solid black;
 }
 
+.card.parrot{
+    background-image: url("../images/Yellow-Naped-Amazon-Parrot.jpg");
+    border: 0.5rem solid black;
+}
+
+.card.GilaMonster {
+    background-image: url("../images/Gila-Monster.jpg");
+    border: 0.5rem solid black;
+}
+
+.card.African-Cichlid{
+    background-image: url("../images/African-Cichlid.jpg");
+    border: 0.5rem solid black;
+}
+
+footer{
+    display: block;
+    color: rgb(213, 208, 208);
+    background-color: black;
+    padding: 4rem;
+}
+
+footer > small{
+    display:block;
+    padding: 1rem;
+}
+
+footer > a{
+    text-decoration: none;
+    color: rgb(213, 208, 208);
+    padding: 1rem;
+}
+
+footer > a > small#Terms-Of-Service:hover{
+    color:white;
+    cursor: pointer;
+}
