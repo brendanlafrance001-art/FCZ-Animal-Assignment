@@ -7,7 +7,6 @@ h1{
     font-size: 3.5rem;
 }
 p{
-    text-align: center;
     margin-left: 2rem;
     margin-right: 2rem;
     font-size: 1.5rem;
@@ -40,4 +39,9 @@ footer > a{
 footer > a > small#Terms-Of-Service:hover{
     color:white;
     cursor: pointer;
+}
+
+a#SECRET{
+    text-decoration: none;
+    color:black;
 }

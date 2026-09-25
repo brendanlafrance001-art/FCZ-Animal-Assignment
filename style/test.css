@@ -1,0 +1,15 @@
+body{
+    background:black;
+}
+
+img{
+    display:block;
+    margin: auto;
+    width: 50%;
+}
+section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50vw auto;
+}
