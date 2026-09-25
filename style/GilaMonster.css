@@ -41,8 +41,13 @@ h1:hover{
     cursor: default;
 }
 
-section {
+h2{
     text-align: center;
+}
+
+img#GilaMonsterRange{
+    display: block;
+    margin: auto;
 }
 
 section#Kingdom > table#Scientific-Classification {
@@ -69,4 +74,27 @@ p{
 
 h2{
     font-size:2.5rem;
+}
+
+footer{
+    display: block;
+    color: rgb(213, 208, 208);
+    background-color: black;
+    padding: 4rem;
+}
+
+footer > small{
+    display:block;
+    padding: 1rem;
+}
+
+footer > a{
+    text-decoration: none;
+    color: rgb(213, 208, 208);
+    padding: 1rem;
+}
+
+footer > a > small#Terms-Of-Service:hover{
+    color:white;
+    cursor: pointer;
 }

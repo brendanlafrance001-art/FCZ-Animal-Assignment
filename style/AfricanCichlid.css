@@ -1,21 +1,112 @@
 body {
-    margin: 0;
+    margin:0;
 }
 
 nav#main-nav {
     background-color: black;
-    display: flex;
+    display:flex;
     justify-content: center;
 }
 
-nav#main-nav > a {
+#main-nav > a{
     color: white;
-    display: inline-block;
+    display:inline-block;
     padding: 1em;
     font-size: 1.5rem;
     text-decoration: none;
     transition: all ease-in-out 500ms;
 }
-nav#main-nav > a:hover {
-    background-color: rgba(0,0,255,0.6);
+
+#main-nav > a:hover{
+    background-color: rgba(0, 0, 255, 0.6);
+}
+
+header > img#AfricanCichlid{
+    display:block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+section {
+    margin: 0.5rem;
+}
+
+section > h3{
+    text-align: center;
+    font-size: 2rem;
+}
+
+header > h1{
+    text-align: center;
+    display: flex;
+    position: absolute;
+    top:20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    height: 5vh;
+}
+header > img{
+    width: 100%;
+}
+
+h1{
+    color: white;
+}
+
+header > h1:hover{
+    cursor: default;
+}
+
+p {
+    font-size: 1.5rem;
+    margin: 0.5rem auto;
+}
+
+h2{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+ul{
+    font-size: 1.5rem;
+}
+
+section#Kingdom > table#Scientific-Classification {
+    margin: 1rem auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+section#Kingdom > table#Scientific-Classification > tbody > tr > th, td{
+    border: 1px solid black;
+    font-size: 1.5rem;
+}
+
+section#Location > img#GilaMonsterRange {
+    text-align: center;
+    width: 50%;
+}
+
+
+footer{
+    display: block;
+    color: rgb(213, 208, 208);
+    background-color: black;
+    padding: 4rem;
+}
+
+footer > small{
+    display:block;
+    padding: 1rem;
+}
+
+footer > a{
+    text-decoration: none;
+    color: rgb(213, 208, 208);
+    padding: 1rem;
+}
+
+footer > a > small#Terms-Of-Service:hover{
+    color:white;
+    cursor: pointer;
 }

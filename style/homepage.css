@@ -53,13 +53,15 @@ a.card{
 
 .card .content{
     opacity: 0;
-    background-color: rgba(255,255,255,0.33);
+    background-color: rgba(255,255,255,0.44);
     height: 100%;
     width: 100%;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     transition: all ease 500ms;
+    overflow: hidden; 
+    text-overflow: ellipsis;
 }  
 
 .card:hover .content{
@@ -91,6 +93,7 @@ footer{
     color: rgb(213, 208, 208);
     background-color: black;
     padding: 4rem;
+    margin-top: 1rem;
 }
 
 footer > small{
